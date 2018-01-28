@@ -4,7 +4,7 @@ import "testing"
 
 func TestAddAndGetProducts(t *testing.T) {
 	c := New()
-	c.Add("apple")
+	c.Add("apple1")
 	c.Add("orange")
 
 	products := c.GetAll()
